@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:arcticPCB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -3409,6 +3408,17 @@ F 1 "RALT_150" H 10975 6500 40  0000 C CNN
 F 2 "acheron_MX_SolderMask:MX150" H 10975 6575 50  0001 C CNN
 F 3 "" H 10975 6575 50  0001 C CNN
 	1    10975 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L6
+U 1 1 5DF1868C
+P -150 8125
+F 0 "L6" H -50 8171 50  0000 L CNN
+F 1 "Putain Logo" H -50 8080 50  0000 L CNN
+F 2 "arcticGraphics:putainLogo_50_5" H -150 8125 50  0001 C CNN
+F 3 "~" H -150 8125 50  0001 C CNN
+	1    -150 8125
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
